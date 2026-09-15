@@ -6,22 +6,30 @@ I build business systems end to end: requirements, technical spec, database desi
 
 ## What I build
 
-**POS / CRM for a three-store retail chain**
+### POS / CRM for a three-store retail chain
+
 Sales, inventory, HR and supplier accounting in one system, built around Uzbek market requirements: fiscal receipts (OFD), Asl Belgisi product marking, Milliy Katalog import.
+
 `Next.js 15` `PostgreSQL` `Drizzle ORM`
 
-**Multi-tenant SaaS for cafes and restaurants**
+### Multi-tenant SaaS for cafes and restaurants
+
 One platform, many tenants, strict data isolation through PostgreSQL row-level security. Full DDL, API contracts and order state machines.
+
 `Next.js` `PostgreSQL RLS` `multi-tenant`
 
-**HR and attendance platform — 17-module specification**
+### HR and attendance platform — 17-module specification
+
 Face-ID attendance, turnstile/ACS integration, GPS geofencing, Kanban task management and payroll, benchmarked against the incumbent product on the market.
+
 `system design` `DB schema` `API`
 
-**Clinic management — QR laboratory module**
+### Clinic management — QR laboratory module
+
 QR-driven lab workflow with a persistent alert system for reception and a hybrid browser-print result flow.
 
-**Legacy POS modernisation**
+### Legacy POS modernisation
+
 25 models, 100+ endpoints, migrated with the Strangler Fig pattern without interrupting live operations.
 
 ## Stack
